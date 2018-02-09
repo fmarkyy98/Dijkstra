@@ -15,7 +15,7 @@ public class DijkstraAlgorithm {
             if (to.equals(u.name)) {
                 Node current = u;
                 while (current.prev != null) {
-                    result.add(current.name);
+                    result.add(0, current.name);
                     current = current.prev;
                 }
                 return result;
