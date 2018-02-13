@@ -4,7 +4,7 @@ import java.util.List;
 
 public class DijkstraAlgorithm {
 
-    public LinkedList<String> dijkstra(String to, String from) {
+    public static LinkedList<String> Dijkstra( String from,String to) {
         LinkedList<String> result = new LinkedList<String>();
         Node n;
         n = NodeFactory.getExistingNode(from);
